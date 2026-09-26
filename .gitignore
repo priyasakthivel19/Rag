@@ -1,0 +1,6 @@
+.env
+storage/
+__pycache__/
+*.pyc
+eval_results.csv
+data/*.pdf

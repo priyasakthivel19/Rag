@@ -1,0 +1,25 @@
+[
+  {
+    "type": "doc",
+    "question": "REPLACE with a question whose answer is in your PDF",
+    "expected_source": "your_file.pdf",
+    "expected_keyword": "a word that must be in the answer",
+    "skip": true
+  },
+  {
+    "type": "doc",
+    "question": "REPLACE with another question from your PDF",
+    "expected_source": "your_file.pdf",
+    "skip": true
+  },
+  {
+    "type": "general",
+    "question": "What is the capital of France?",
+    "expected_keyword": "Paris"
+  },
+  {
+    "type": "general",
+    "question": "Who wrote the Indian national anthem?",
+    "expected_keyword": "Tagore"
+  }
+]

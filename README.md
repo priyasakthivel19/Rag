@@ -146,8 +146,9 @@ Then on [render.com](https://render.com):
 4. Your app is live at `https://rag-chatbot-xxxx.onrender.com`.
 
 No `render.yaml`? Set these manually when creating a Web Service:
-- **Build command**: `pip install -r backend/requirements.txt`
-- **Start command**: `cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT`
+- **Root Directory**: `backend`
+- **Build command**: `pip install -r requirements.txt`
+- **Start command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 - **Environment variable**: `GROQ_API_KEY` = your key
 
 ### Free-tier limitations (important for your demo)
